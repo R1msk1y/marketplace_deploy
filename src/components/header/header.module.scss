@@ -45,6 +45,9 @@
   align-items: center;
   column-gap: 10px;
 }
+.header_favorited {
+  display: none;
+}
 //media
 @media (max-width: 1227px) {
   .searchInput {
