@@ -18,6 +18,11 @@ const Feedback = () => {
   return (
     <div>
       <h2 className={styles.feedBack_title}>Обратная связь</h2>
+      <div style={{ display: "none" }} className={styles.feedback_comment}>
+        <h2>Ваш комментарий добавлен!</h2>
+        <h2>Спасибо за фидбэк!</h2>
+        <img src="img/feedback/comment_add.png" alt="CommentAdd" />
+      </div>
       <form onSubmit={handleSubmit(onSubmit)} className={styles.feedBack_form}>
         <div className={styles.inputContainer}>
           <input
