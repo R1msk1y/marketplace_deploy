@@ -6,6 +6,9 @@
   row-gap: 5px;
   padding: 10px;
   border: 1px solid #f3f3f3;
+  -webkit-box-shadow: -2px 7px 23px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -2px 7px 23px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: -2px 7px 23px 0px rgba(34, 60, 80, 0.2);
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.2s linear;
