@@ -11,8 +11,9 @@ const Feedback = () => {
     mode: "onChange",
   });
   const onSubmit = (data) => {
-    alert(JSON.stringify(data));
     axios.post("https://64dbcbc0593f57e435b16da2.mockapi.io/feedback", data);
+    console.log(JSON.stringify(data));
+    reset();
   };
   return (
     <div>
@@ -71,6 +72,7 @@ const Feedback = () => {
         </div>
 
         <textarea
+          {...register("comment")}
           placeholder="Комментарий"
           className={styles.textArea}
           cols="30"
