@@ -1,0 +1,32 @@
+@import "reset.scss";
+html,
+body {
+  font-family: "Nunito", sans-serif;
+}
+//wrapper
+.wrapper {
+  max-width: 1920px;
+  padding: 0 100px;
+  position: relative;
+}
+.categoryTitle {
+  margin-top: 60px;
+  font-size: 32px;
+  font-weight: bold;
+}
+// .fruitsList {
+//   max-width: 1920px;
+//   justify-content: center;
+//   display: flex;
+//   flex-wrap: wrap;
+//   column-gap: 20px;
+// }
+.fruitsList {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+//адаптив
+@import "media.scss";

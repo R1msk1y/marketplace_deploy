@@ -1,0 +1,29 @@
+@media (max-width: 1702px) {
+  .fruitsList {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .categoryTitle {
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
+  .fruitsList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 723px) {
+  .fruitsList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 723px) {
+  .App {
+    overflow: hidden;
+  }
+  .wrapper {
+    padding: 0 40px;
+  }
+  .fruitsList {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
