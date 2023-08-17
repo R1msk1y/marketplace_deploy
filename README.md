@@ -1,5 +1,5 @@
 ## Интернет магазин на React JS
-<a href='https://r1msk1y.github.io/marketplace_deploy/'>Страница проекта на gitHub Pages</a> <br>
+<a href='https://r1msk1y.github.io/marketplace_deploy/'>Страница проекта на gitHub Pages.</a> <br>
 Проект основан на знаниях полученных после прохождения курса Арчакова Дениса -  React Sneakers 
 ___
 ## Инструменты
